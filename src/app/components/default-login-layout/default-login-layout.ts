@@ -1,8 +1,9 @@
 import { Component, Input } from '@angular/core';
+import { ɵEmptyOutletComponent } from "@angular/router";
 
 @Component({
   selector: 'app-default-login-layout',
-  imports: [],
+  imports: [ɵEmptyOutletComponent],
   templateUrl: './default-login-layout.html',
   styleUrl: './default-login-layout.scss',
 })
